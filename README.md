@@ -30,7 +30,7 @@ jobs:
 
       - name: Determine latest released version
         id: latest_version
-        uses: flownative/action-git-latest-release@v1
+        uses: flownative/action-git-latest-release@v1.1.2
 
       - name: Build Docker image
         uses: flownative/action-docker-build@v1
